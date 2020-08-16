@@ -33,7 +33,6 @@ public class PaymentSystem04 { //opening of outer class body
         public static void processPaymentByCrypto1() {
             System.out.println("process customer payment by Crypto -- static method");
         }
-
         public void processPaymentByCrypto2() {
             System.out.println("process customer payment by Crypto -- non-static method");
         }
@@ -44,4 +43,5 @@ public class PaymentSystem04 { //opening of outer class body
             System.out.println("process customer payment by Credit Card");
         }
     }//closing of inner class body
+
 } //closing of outer class body

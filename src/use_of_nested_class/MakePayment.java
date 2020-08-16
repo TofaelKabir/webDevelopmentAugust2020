@@ -21,12 +21,15 @@ public class MakePayment {
 
         System.out.println("\n------------------- Third Output -------------------");
         PaymentSystem03 ps03 = new PaymentSystem03();
+        ps03.payByPayPal.processPaymentByPayPal();
         ps03.payByCreditCard.processPaymentByCreditCard();
 
         System.out.println("\n------------------- Fourth Output: when Inner class are all private -------------------");
         PaymentSystem04 ps04 = new PaymentSystem04();
         ps04.processPayment(); // public method is called, but not the protected method
         ps04.processPayment2(); //protected method is called
+        //Unlike a class, an inner class can be private and once you declare an inner class private,
+        //it cannot be accessed from an object outside the class.
 
 
     }

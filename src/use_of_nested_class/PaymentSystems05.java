@@ -2,7 +2,7 @@ package use_of_nested_class;
 
 // To organize code: command/control + Alt + l
 
-public class PaymentSystems00 {
+public class PaymentSystems05 {
     PayByCreditCard payByCreditCard = new PayByCreditCard();
 
     public static void processPayment() {
@@ -36,7 +36,7 @@ public class PaymentSystems00 {
             pay.paymentMethod();
         }
 
-        public interface Pay {
+        public interface Pay { // this is a nested inner Interface
             public void paymentMethod();
         }
 

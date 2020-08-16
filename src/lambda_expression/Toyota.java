@@ -27,5 +27,4 @@ public class Toyota implements Car {
         return total;
     }
 
-
 }
